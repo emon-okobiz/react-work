@@ -19,7 +19,7 @@ const Header = () => {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navy-900 leading-tight">
               Learn <span className="text-blue-600">Skills</span> From
               <br className="hidden md:block" />
-              Our Top Instructors
+              Our Top Instructors nasim
             </h1>
             
             <p className="text-gray-600 text-base md:text-lg">
