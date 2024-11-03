@@ -6,15 +6,15 @@ const Header = () => {
     <div className="relative w-full min-h-screen bg-gradient-to-r from-blue-50 to-purple-50 overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute left-0 top-0 w-32 h-32 bg-teal-100 rounded-full -translate-x-16 -translate-y-16" />
-      <div className="absolute right-0 bottom-0 w-32 h-32 bg-purple-100 rounded-full translate-x-16 translate-y-16" />
+      <div className="absolute right-0 bottom-0 w-32 h-32 bg-purple-100 rounded-full translate-x-14 translate-y-16" />
       
       <div className="w-full max-w-[1440px] mx-auto px-4 md:px-6 lg:px-8 py-8 md:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Content */}
-          <div className="space-y-4 md:space-y-6 max-w-xl mx-auto lg:mx-0">
-            <div className="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-medium">
-              100% Satisfaction Guarantee
-            </div>
+          <div className="space-y-4  md:space-y-6 max-w-xl mx-auto lg:mx-0">
+          <div className="inline-block bg-blue-100 text-blue-600 md:px-6 px-4 md:py-1 py-2 rounded-full text-sm md:text-base font-medium mt-8 flex items-center justify-center">
+  100% Satisfaction Guarantee
+</div>
             
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navy-900 leading-tight">
               Learn <span className="text-blue-600">Skills</span> From
@@ -31,14 +31,17 @@ const Header = () => {
                 EXPLORE COURSES
               </button>
               
+              <div className='flex flex-col items-center justify-center '>
+                {/* <div className="flex flex-col items-center justify-center"> */}
               <div className="flex items-center gap-3">
                 <div className="bg-white p-2 rounded-full shadow-lg">
-                  <Phone className="h-5 w-5 text-blue-600" />
+                  <Phone className="h-5 w-5 text-blue-600 " />
                 </div>
-                <div>
-                  <div className="text-sm text-gray-600">Have any Question?</div>
+                <div className=''>
+                  <div className="text-sm text-gray-600 text-center">Have any Question?</div>
                   <div className="font-medium">993-00-67777</div>
                 </div>
+              </div>
               </div>
             </div>
           </div>
